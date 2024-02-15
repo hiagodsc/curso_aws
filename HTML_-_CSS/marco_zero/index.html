@@ -3,17 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <title>Marco Zero</title>
+    <style>
+        
+        * {
+            font-family: "Quicksand", sans-serif;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: rgba(122, 46, 46, 0.909);
+        }
+        
+        .cabecalho-rodape {
+            color: rgb(255, 246, 246);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            background-color: rgb(228, 141, 141);
+            border: 2px solid rgb(255, 254, 254);
+        }
+        
+        .cabecalho-rodape ul {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;      
+            list-style-type: none;            
+        }
+
+        .cabecalho-rodape li {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 10px;
+        }
+
+        a {
+            color: azure;
+        }
+
+        a:hover {
+            color: rgb(54, 42, 165);
+        }
+
+        header {
+            border-radius: 25px 25px 0px 0px;
+        }
+
+        main {
+            text-align: center;
+            color: azure;
+            padding: 5px;
+            border-left: 2px solid rgb(255, 255, 255);
+            border-right: 2px solid rgb(255, 255, 255);
+        }
+        section {
+            color: azure;
+            border: 2px solid rgba(255, 255, 255, 0.835);
+            border-radius: 5px;
+            box-shadow: 0 2px 3px rgba(128, 125, 125, 0.835);
+            text-align: center;
+            padding: 10px;
+            margin: 0 0 15px;
+        }
+
+        section p {
+            text-align: justify;
+        }
+        
+        section img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        
+        footer {
+            border-radius: 0px 0px 25px 25px;
+            background-color: rgba(43, 43, 43, 0.835);
+        }
+        
+    </style>
 </head>
 <body>
-    <header>
+    <header class="cabecalho-rodape">
         <span>Marco Zero</span>
         <nav>
             <ul>
-                <li>Receitas</li>
-                <li>Sobre</li>
-                <li>Livro</li>
-                <li>Sugestões</li>
+                <li><a href="https://pt.wikipedia.org/wiki/Pra%C3%A7a_Rio_Branco_(Recife)">Wiki</a></li>
+                <li><a href="https://maps.app.goo.gl/GQ5AYhTSaWVpoeLh6">Como chegar</a></li>
+                <li><a href="/HTML_-_CSS/marco_zero/pagina_2/pagina_2.html">Recife Antigo</a></li>
             </ul>
         </nav>
     </header>
@@ -21,10 +101,8 @@
     <main>
         <h1>Bem-vindos ao Marco Zero em Recife - PE</h1>
         <section>
-            <span>
-                <img src="/HTML_-_CSS/marco_zero/assets/marco-zero.jpg" width="400px" 
-                alt="Vista aérea do Marco Zero em Recife, com foco nos prédios ao redor e na rosa dos ventos ao centro.">
-            </span>
+            <img src="/HTML_-_CSS/marco_zero/assets/marco-zero.jpg" 
+            alt="Vista aérea do Marco Zero em Recife, com foco nos prédios ao redor e na rosa dos ventos ao centro.">
             <h2>Sobre</h2>
             <p>O Marco Zero no Recife Antigo é o lugar de referência onde a cidade nasceu e 
                 todas as medidas oficiais de distâncias rodoviárias usam como ponto de partida.
@@ -33,13 +111,13 @@
         </section>
     </main>
 
-    <footer>
-        <span>Marco Zero(c)</span>
+    <footer class="cabecalho-rodape">
+        <span>Marco Zero ©</span>
         <nav>
             <ul>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>YouTube</li>
+                <li><a href="https://www.facebook.com/?locale=pt_BR">Facebook</a></li>
+                <li><a href="https://www.instagram.com/accounts/login/">Instagram</a></li>
+                <li><a href="https://www.youtube.com/?hl=pt-br">YouTube</a></li>
             </ul>
         </nav>
     </footer>
