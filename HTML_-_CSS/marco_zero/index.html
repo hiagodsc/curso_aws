@@ -16,6 +16,9 @@
         
         body {
             background-color: rgba(122, 46, 46, 0.909);
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         
         .cabecalho-rodape {
@@ -87,39 +90,41 @@
     </style>
 </head>
 <body>
-    <header class="cabecalho-rodape">
-        <span>Marco Zero</span>
-        <nav>
-            <ul>
-                <li><a href="https://pt.wikipedia.org/wiki/Pra%C3%A7a_Rio_Branco_(Recife)">Wiki</a></li>
-                <li><a href="https://maps.app.goo.gl/GQ5AYhTSaWVpoeLh6">Como chegar</a></li>
-                <li><a href="/HTML_-_CSS/marco_zero/pagina_2/pagina_2.html">Recife Antigo</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div id="container">
+        <header class="cabecalho-rodape">
+            <span>Marco Zero</span>
+            <nav>
+                <ul>
+                    <li><a href="https://pt.wikipedia.org/wiki/Pra%C3%A7a_Rio_Branco_(Recife)" target="_blank">Wiki</a></li>
+                    <li><a href="https://maps.app.goo.gl/GQ5AYhTSaWVpoeLh6" target="_blank">Como chegar</a></li>
+                    <li><a href="/HTML_-_CSS/marco_zero/pagina-2/pagina_2.html">Recife Antigo</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
-        <h1>Bem-vindos ao Marco Zero em Recife - PE</h1>
-        <section>
-            <img src="/HTML_-_CSS/marco_zero/assets/marco-zero.jpg" 
-            alt="Vista aérea do Marco Zero em Recife, com foco nos prédios ao redor e na rosa dos ventos ao centro.">
-            <h2>Sobre</h2>
-            <p>O Marco Zero no Recife Antigo é o lugar de referência onde a cidade nasceu e 
-                todas as medidas oficiais de distâncias rodoviárias usam como ponto de partida.
-                 Seu nome é, na verdade, Praça Rio Branco e fica ao lado do Porto de Pernambuco.
-            </p>
-        </section>
-    </main>
+        <main>
+            <h1>Bem-vindos ao Marco Zero em Recife - PE</h1>
+            <section>
+                <img src="/HTML_-_CSS/marco_zero/assets/marco-zero.jpg" 
+                alt="Vista aérea do Marco Zero em Recife, com foco nos prédios ao redor e na rosa dos ventos ao centro.">
+                <h2>Sobre</h2>
+                <p>O Marco Zero no Recife Antigo é o lugar de referência onde a cidade nasceu e 
+                    todas as medidas oficiais de distâncias rodoviárias usam como ponto de partida.
+                    Seu nome é, na verdade, Praça Rio Branco e fica ao lado do Porto de Pernambuco.
+                </p>
+            </section>
+        </main>
 
-    <footer class="cabecalho-rodape">
-        <span>Marco Zero ©</span>
-        <nav>
-            <ul>
-                <li><a href="https://www.facebook.com/?locale=pt_BR">Facebook</a></li>
-                <li><a href="https://www.instagram.com/accounts/login/">Instagram</a></li>
-                <li><a href="https://www.youtube.com/?hl=pt-br">YouTube</a></li>
-            </ul>
-        </nav>
-    </footer>
+        <footer class="cabecalho-rodape">
+            <span>Marco Zero ©</span>
+            <nav>
+                <ul>
+                    <li><a href="https://www.facebook.com/?locale=pt_BR" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/accounts/login/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/?hl=pt-br" target="_blank">YouTube</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
 </body>
 </html>

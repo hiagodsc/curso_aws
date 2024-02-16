@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>Marco Zero</title>
+    <style>
+        
+        * {
+            font-family: "Quicksand", sans-serif;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: rgba(122, 46, 46, 0.909);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .cabecalho-rodape {
+            color: rgb(255, 246, 246);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            background-color: rgb(228, 141, 141);
+            border: 2px solid rgb(255, 254, 254);
+        }
+        
+        .cabecalho-rodape ul {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;      
+            list-style-type: none;            
+        }
+
+        .cabecalho-rodape li {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 10px;
+        }
+
+        a {
+            color: azure;
+        }
+
+        a:hover {
+            color: rgb(54, 42, 165);
+        }
+
+        header {
+            border-radius: 25px 25px 0px 0px;
+        }
+
+        main {
+            text-align: center;
+            color: azure;
+            padding: 5px;
+            border-left: 2px solid rgb(255, 255, 255);
+            border-right: 2px solid rgb(255, 255, 255);
+        }
+        section {
+            color: azure;
+            border: 2px solid rgba(255, 255, 255, 0.835);
+            border-radius: 5px;
+            box-shadow: 0 2px 3px rgba(128, 125, 125, 0.835);
+            text-align: center;
+            padding: 10px;
+            margin: 0 0 15px;
+        }
+
+        section p {
+            text-align: justify;
+        }
+        
+        section img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        
+        footer {
+            border-radius: 0px 0px 25px 25px;
+            background-color: rgba(43, 43, 43, 0.835);
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header class="cabecalho-rodape">
+            <span>Recife Antigo</span>
+            <nav>
+                <ul>
+                    <li><a href="#capela_dourada">Capela Dourada</a></li>
+                    <li><a href="#madre-de-Deus">Igreja Madre de Deus</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Bem-vindos ao Recife Antigo</h1>
+            <section id="capela_dourada">
+                <h2>Capela Dourada</h2>
+                <img src="/HTML_-_CSS/marco_zero/pagina-2/assets/Interior-da-Capela-Dourada.jpg" 
+                alt="interior da Ccapela Dourada.">
+                <p>A Capela Dourada, que recebe o nome formalmente de Capela dos Noviços da Ordem Terceira de São Francisco
+                     de Assis, é uma um dos principais pontos turísticos do Recife e uma das igrejas mais impressionantes, 
+                     localizada no Convento de Santo Antônio.
+                    <br><br>
+                    A capela foi erguida no século 18 e tem uma decoração barroca exuberante, com muito ouro, talha e azulejos portugueses. 
+                    A riqueza artística e histórica chama a atenção.
+                </p>
+            </section>
+
+            <section id="madre-de-Deus">
+                <h2>Igreja Madre de Deus</h2>
+                <img src="/HTML_-_CSS/marco_zero/pagina-2/assets/igreja-madre-de-Deus.jpg" 
+                alt="Altar da Igreja Madre de Deus.">
+                <p>
+                    Altar da Igreja Madre de Deus. A Igreja está situada na Rua Madre de Deus, no Bairro do Recife,ao lado do Paço Alfândega. 
+                    A construção do templo só veio a ser concluída em 1720, apresentando em sua fachada esculturas em pedras dos arrecifes e 
+                    uma estátua de São Felipe de Néri, em tamanho natural.
+                </p>
+            </section>
+        </main>
+
+        <footer class="cabecalho-rodape">
+            <span>Recife Antigo ©</span>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">< Voltar</a></li>
+                    <li><a href="#container">^ Topo</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>
